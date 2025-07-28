@@ -1,0 +1,101 @@
+/* Dashboard.css */
+.dashboard-container {
+  max-width: 800px;
+  margin: 48px auto;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(60,80,120,0.13);
+  padding: 56px 40px 40px 40px;
+  position: relative;
+}
+.home-dashboard {
+  border: 2px solid #e0e7ff;
+}
+.dashboard-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 32px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.gradient-text {
+  background: linear-gradient(90deg, #2563eb 0%, #38bdf8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.dashboard-graphs {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 36px;
+  justify-content: center;
+}
+.dashboard-graph {
+  background: #f1f5f9;
+  border-radius: 16px;
+  padding: 28px 32px;
+  box-shadow: 0 4px 16px rgba(60,80,120,0.10);
+  min-width: 340px;
+}
+.dashboard-graph h4 {
+  margin-bottom: 18px;
+  color: #2563eb;
+  font-size: 1.18rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+.dashboard-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+.dashboard-list li {
+  padding: 18px 0 18px 18px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 1.09rem;
+  color: #334155;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: #f9fafb;
+  border-radius: 12px;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 8px rgba(60,80,120,0.06);
+  transition: box-shadow 0.2s, background 0.2s;
+}
+.task-item {
+  transition: box-shadow 0.2s;
+}
+.task-item:hover {
+  box-shadow: 0 4px 16px rgba(60,80,120,0.13);
+  background: #e0e7ff;
+}
+.task-title {
+  font-weight: 800;
+  font-size: 1.15rem;
+  color: #2563eb;
+  margin-bottom: 2px;
+}
+.task-desc {
+  font-size: 1rem;
+  color: #64748b;
+  margin-bottom: 2px;
+}
+.task-meta {
+  display: flex;
+  gap: 18px;
+  font-size: 0.97rem;
+  color: #475569;
+  margin-top: 2px;
+}
+.status-pending {
+  border-left: 6px solid #FFB347;
+}
+.status-inprogress {
+  border-left: 6px solid #6495ED;
+}
+.status-completed {
+  border-left: 6px solid #90EE90;
+  background: #f0fff4;
+}

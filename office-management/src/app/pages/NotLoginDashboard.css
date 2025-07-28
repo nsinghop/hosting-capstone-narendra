@@ -1,0 +1,52 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f2f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .welcomeBox {
+    background: white;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .welcomeBox h2 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .welcomeBox h2 span {
+    color: #0070f3;
+  }
+  
+  .info {
+    color: #555;
+    font-size: 1.1rem;
+  }
+  
+  .loginLink {
+    color: #0070f3;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .loginLink:hover {
+    text-decoration: underline;
+  }
+  
+  .loader {
+    font-size: 1.5rem;
+    color: #0070f3;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+  }
