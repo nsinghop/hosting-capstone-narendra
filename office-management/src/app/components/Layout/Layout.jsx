@@ -3,7 +3,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Sidebar from './Sidebar';
-import '../../styles/components/layout.css';
+// import '../../styles/components/layout.css';
 
 const Layout = ({ children }) => {
   return (
