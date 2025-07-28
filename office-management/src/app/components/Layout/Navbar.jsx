@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { onAuthStateChanged } from 'firebase/auth';
 import React from 'react';
-import '../../styles/components/navbar.css';
+// import '../../styles/components/navbar.css';
 import { auth } from '../../../../firebase/clientApp';
 
 const Navbar = () => {
