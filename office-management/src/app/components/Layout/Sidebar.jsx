@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import '../../styles/components/sidebar.css';
+// import '../../styles/components/sidebar.css';
 import { Building } from 'lucide-react';
 
 const Sidebar = () => {
